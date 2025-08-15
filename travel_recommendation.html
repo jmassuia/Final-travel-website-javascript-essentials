@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Recommendation Website</title>
+  <link rel="stylesheet" href="./styles/travel_recommendation.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="./img/icons8-travel-diary-50.png" alt="">
+      <h1>Travel Guides and Flys</h1>
+    </div>
+    <ul>
+      <li><a href="./travel_recommendation.html" id="home">Home</a></li>
+      <li><a href="./views/about_us.html" id="home">About Us</a></li>
+      <li><a href="./views/contact_us.html" id="contact">Contact Us </a></li>
+      <li>
+        <input type="text" id="searchInput" placeholder="Enter a place to visit">
+      </li>
+      <button id='btnSearch'>
+          <img src="./img/icons8-search-48.png" alt="Search">
+      </button>
+      <button id='btnClear'>
+          <img src="./img/icons8-trash-50.png" alt="Clear">
+      </button>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="BannerText">
+      <h1>Get to know the amazing places in this world.</h1>
+      <span>
+        <p>Explore new travel guides and advantures around the globe. We provide you cutting edge plans to enhance the most your experience anywhere you decide to fly.</p>
+      </span>
+      <button id="bookNow">Buy now</button>
+    </div>
+    <div id="results"></div>
+
+  </div>
+<script src="./js/travel_recommendation.js"></script>
+</body>
+</html>

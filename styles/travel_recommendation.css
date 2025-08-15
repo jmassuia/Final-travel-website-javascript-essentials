@@ -1,0 +1,220 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  nav .logo{
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+    gap: 10px; /* Adds space between the image and the heading */
+    text-align: center;
+  }
+  nav .logo h1{
+    margin: 0;
+  }
+
+  nav img{
+    width: 30px;
+    height: 30px;
+    display: block;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  nav a:hover{
+    color: dodgerblue;
+  }
+
+  nav button{
+    border-radius: 5px;
+    background-color: transparent;
+
+  }
+  
+  nav button:hover{
+    background-color: dodgerblue;
+  }
+
+  nav button img{
+    width: 15px;
+    height: 15px;
+  }
+
+  nav ul li input{
+    border: none;
+    border-radius: 2px;
+  }
+  
+  /* Basic CSS for the form elements */
+  body {
+    font-family: Arial, sans-serif;
+    /* margin: 20px; */
+    background-image: url("../img/travel-the-world-r6ao4m8c15q1ok3r.jpg");
+    background-size: cover;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 7px 15px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: dodgerblue;
+  }
+  
+  /* Basic CSS for the report section */
+  h2 {
+    margin-top: 30px;
+  }
+  
+  #report,#result {
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+  }
+#result{
+  height: 400px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+  #result img{
+    width: 200px;
+    height: 100px;
+  }
+
+  div.container, div.institutional{
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  div.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.results{
+    padding-right: 50px;
+  }
+  
+  div.about_us p{
+    text-align: justify;
+  }
+
+  div.our_team, div.team_profile_card{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    width: 1100px;
+  }
+  div.team_profile_card_content{
+    padding: 1rem;
+    height: 180px;
+    width: 300px;
+    background-color: rgb(180, 214, 248);
+    border-radius: 10px;
+
+  }
+  div.team_profile_card_content img{
+    width: 20px;
+    height: 20px;
+  }
+  div.team_profile_card_content:hover{
+    height: 200px;
+    width: 320px;
+    transition: 1s;
+    background-color: rgb(141, 194, 247);
+
+  }
+
+  div.container button{
+    margin-top: 1rem;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 185px;
+    height: 40px;
+  }
+
+  div.contact_us_center{
+    display: flex;
+    flex-direction: row; /* Stack children vertically */
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  div.contact_us_form label{
+    margin-bottom: 5px;
+  }
+  div.contact_us_form input,div.contact_us_form textarea {
+    border-radius: 10px;
+  }
